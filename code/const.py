@@ -1,7 +1,6 @@
 # c
 import pygame
 
-from code.Entity import Entity
 
 COLOR_DARK = (5, 5, 5)
 COLOR_WHITE = (255, 255, 255)
@@ -19,6 +18,18 @@ Entity_SPEED = {
     'Player2': 3,
     'Enemy1' : 2,
     'Enemy2' : 1,
+}
+
+ENTITY_HEALTH = {
+    'Level1Bg0': 999,
+    'Level1Bg1': 999,
+    'Level1Bg2': 999,
+    'Level1Bg3': 999,
+    'Level1Bg4': 999,
+    'Player1': 300,
+    'Player2': 300,
+    'Enemy1': 50,
+    'Enemy2': 60,
 
 }
 # M
