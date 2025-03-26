@@ -4,7 +4,7 @@ import pygame.image
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.const import WIN_WIDTH, COLOR_DARK, MENU_OPTION, COLOR_WHITE, COLOR_YELLOW
+from code.const import WIN_WIDTH, C_DARK, MENU_OPTION, C_WHITE, C_YELLOW
 
 
 class Menu:
@@ -21,14 +21,14 @@ class Menu:
         while True:
             #DRAW IMAGES
             self.window.blit(self.surf, self.rect)
-            self.menu_text(50, "Dark", COLOR_DARK, ((WIN_WIDTH / 2), 70))
-            self.menu_text(50, "City", COLOR_DARK, ((WIN_WIDTH / 2), 120))
+            self.menu_text(50, "Dark", C_DARK, ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "City", C_DARK, ((WIN_WIDTH / 2), 120))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:  # A primeira opção será destacada
-                    self.menu_text(20, MENU_OPTION[i], COLOR_YELLOW, ((WIN_WIDTH / 2), 200 + 25 * i))
+                    self.menu_text(20, MENU_OPTION[i], C_YELLOW, ((WIN_WIDTH / 2), 200 + 25 * i))
                 else:
-                    self.menu_text(20, MENU_OPTION[i], COLOR_WHITE, ((WIN_WIDTH / 2), 200 + 25 * i))
+                    self.menu_text(20, MENU_OPTION[i], C_WHITE, ((WIN_WIDTH / 2), 200 + 25 * i))
 
 
 
