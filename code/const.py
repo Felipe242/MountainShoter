@@ -32,9 +32,9 @@ ENTITY_HEALTH = {
     'Level1Bg2': 999,
     'Level1Bg3': 999,
     'Level1Bg4': 999,
-    'Player1': 300,
+    'Player1': 200,
     'Player1Shot': 1,
-    'Player2': 300,
+    'Player2': 200,
     'Player2Shot': 2,
     'Enemy1': 50,
     'Enemy1Shot': 1,
@@ -75,8 +75,8 @@ ENTITY_SCORE = {
 }
 
 ENTITY_SHOT_DELAY = {
-    'Player1': 20,
-    'Player2': 15,
+    'Player1': 12,
+    'Player2': 12,
     'Enemy1': 150,
     'Enemy2': 200,
 }
